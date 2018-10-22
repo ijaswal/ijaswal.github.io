@@ -23,7 +23,9 @@
 					<nav id="nav">
 						<a href="#me" class="icon fa-home active"><span>Home</span></a>
 						<a href="#about" class="icon fa-question"><span>About Me</span></a>
-						<a href="#work" class="icon fa-folder"><span>Experience</span></a>
+						<a href="#resume" class="icon fa-file"><span>Resume</span></a>
+						<a href="#work" class="icon fa-briefcase"><span>Work Experience</span></a>
+						<a href="#volunteer" class="icon fa-folder"><span>Extracurriculars</span></a>
 						<a href="#contact" class="icon fa-envelope"><span>Contact Me</span></a>
 					</nav>
 
@@ -32,16 +34,12 @@
 
 						<!-- Me -->
 							<article id="me" class="panel">
-								<header>
-									<img src="images/script.png" alt="name" class="script" />
-									<div class="row"> <i class="fa fa-angle-right fa-2x"></i><a href="#about" class="jumplink"><p>Learn more about me</p></a> </div>
-									<div class="button-row col-sm-offset-5">
+								<img src="images/script.png" alt="name" class="script" />
+								<div class="row"> <i class="fa fa-angle-right fa-2x"></i><a href="#about" class="jumplink"><p>Learn more about me</p></a> </div>
+								<p> Hello, my name is Inderdeep Jaswal! Welcome to my digital portfolio. I am currently looking for a full-time work opportunity for when I graduate in May 2019. You can find all relevant information on this digital portfolio. You can navigate my website through the navbar on the top of the page to find my work experience, extracurricular activities, and more.
+								<div class="button-row col-sm-offset-5">
 									<a href="./assets/files/Inderdeep_Jaswal_Resume.pdf" download="Inderdeep Jaswal Resume"><button type="button" class="btn btn-primary"><i class="fa fa-download"></i> Download My Resume</button></a>
 									<a href="https://www.linkedin.com/in/inderdeep-jaswal-164020134/"><button type="button" class="btn btn-primary"><i class="fa fa-linkedin"></i> Check Out My LinkedIn </button></a>
-									</div>
-								</header>
-								<div class="jumplink pic">
-									<img src="images/profile-pic.png" alt="Inderdeep Jaswal" />
 								</div>
 							</article>
 						
@@ -49,12 +47,26 @@
 							<article id="about" class="panel">
 								<header>
 									<h2>About Me</h2>
+									<img class="float-right" id="about-me-pic" src="images/profile-pic.png" alt="Inderdeep Jaswal"/>
 								</header>
 								<p>My name is Inderdeep Jaswal and I am a Computer Science major at Stony Brook University.</p>
-								<p>I have mostly worked with Java and C but have also gained experience with HTML, CSS, Javascript, and C# during <a href="#work" class="jumplink">my summer internships</a> at Soft System Solution and Millennium Management.</p>
-								<p> I love programming and am always looking for a new experience that gives me a chance to grow as a software engineer. If you'd like to reach out to me for such an opportunity, you can always <a href="#contact" class="jumplink">contact me</a>. </p>
+								<p>I have mostly worked with Java and C but have also gained experience with HTML, CSS, Javascript, and C# during <b><a href="#work" class="jumplink">my summer internships</a></b> at Soft System Solution and Millennium Management.</p>
+								<p> I love programming and am always looking for a new experience that gives me a chance to grow as a software engineer. If you'd like to reach out to me for such an opportunity, you can always <b><a href="#contact" class="jumplink">contact me</a></b>. </p>
 								<p>When I'm not programming, you can probably find me playing video games, watching the newest Netflix series, or playing a terrible game of basketball!</p>
 							</article>
+
+						<!-- Resume -->
+							<article id="resume" class="panel">
+								<header>
+									<a href="./assets/files/Inderdeep_Jaswal_Resume.pdf" download="Inderdeep Jaswal Resume"><button type="button" id="resume-button" class="btn btn-primary"><i class="fa fa-download"></i> Download My Resume</button></a>
+									<h2>My Resume</h2>
+								</header>
+								
+								<iframe src="./assets/files/Inderdeep_Jaswal_Resume.pdf" style="width:100%; height:500px;" frameborder="0"></iframe>
+
+							</article>
+
+
 
 						<!-- Work -->
 							<article id="work" class="panel">
@@ -87,8 +99,13 @@
 										<li>Managed stock and was responsible for ordering new products requested by customers and reordering items that were running low in stock</li>
 									</ul>
 								</p>
+							</article>
+
+
+						<!-- Volunteer -->
+							<article id="volunteer" class="panel">
 								<header>
-									<h2>Volunteer Work</h2>
+									<h2>Extracurricular Activity</h2>
 								</header>
 								<h5>Treasurer of 3Diatrics</h5>
 								May 2017 - Present

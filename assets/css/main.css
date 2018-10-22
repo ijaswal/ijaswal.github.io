@@ -949,9 +949,10 @@
 	.button {
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
+		background-color: #008CBA;
 		color: #ffffff;
 		border: 0;
+		border-radius: 6px;
 		cursor: pointer;
 		outline: 0;
 		-moz-transition: background-color .25s ease-in-out;
@@ -1098,8 +1099,10 @@
 		}
 
 		#me .script {
-			margin-top:10%;
-			width: 65%;
+			width: 85%;
+			display: block;
+		    margin-left: auto;
+		    margin-right: auto;
 		}
 
 		#me a:link {
@@ -1160,7 +1163,9 @@
 	#work h5 {
     			color: #003366;
 			}
-
+	#resume-button {
+		float: right;
+	}
 /* Footer */
 
 	#footer {
@@ -1343,13 +1348,13 @@
 						font-size: 0.3em;
 						height: 2.25em;
 						line-height: 2.25em;
-						left: 50%;
+						left: 30%;
 						opacity: 0;
 						-moz-transition: opacity .25s ease-in-out;
 						-webkit-transition: opacity .25s ease-in-out;
 						-ms-transition: opacity .25s ease-in-out;
 						transition: opacity .25s ease-in-out;
-						width: 5.5em;
+						width: 7.0em;
 						margin-left: -2.75em;
 					}
 
@@ -1398,11 +1403,6 @@
 			}
 
 		/* Me */
-
-			#me {
-				padding: 0;
-				height: 20em;
-			}
 
 				#me .pic {
 					display: block;
@@ -1480,6 +1480,12 @@
 						letter-spacing: -0.015em;
 						margin-top: 0;
 					}
+
+			#about-me-pic {
+				width:45%; 
+				height:65%; 
+				float:right
+			}
 
 		/* Footer */
 
